@@ -1,11 +1,8 @@
-#-*- coding: utf-8 -*-
-import time
 import sys
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 import tweepy
-import json
 
 #Get Hashtag to track
 argTag = sys.argv[1]
