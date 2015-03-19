@@ -29,10 +29,10 @@ if __name__ == '__main__':
     listener = TweetListener()
 
     #Keys
-    CONSUMER_KEY = '7OqqdhrioufGXEvVmpwmDesos'
-    CONSUMER_SECRET = 'th6XLAMDoVg6ZNE6MfGvFPmiKTcF0PaYtuv5HWOTUz3pisN0j0'
-    ACCESS_KEY = '3046920851-JfLocarWiWmd8HvmSx9eYswV9cHYsj8t0bztCwL'
-    ACCESS_SECRET = 'L5cyGYPB3NPhXx2Y9oDiZB02RZd7fpWuLnV2r7NPDfI6q'
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    ACCESS_KEY = ''
+    ACCESS_SECRET = ''
 
     #Initialise and Authorise
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
