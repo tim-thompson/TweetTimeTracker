@@ -4,7 +4,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import tweepy
 
-#Get Hashtag to track
+#Get String to track on
 argTag = sys.argv[1]
 
 #Class for listening to all tweets
