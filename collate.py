@@ -32,4 +32,4 @@ for line in lines:
 result.append((current, count))
 
 for res in result:
-    print res
+    print (res)
